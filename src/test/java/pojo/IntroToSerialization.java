@@ -34,6 +34,6 @@ public class IntroToSerialization {
        String responseInJson = response.asString();
        gson= new Gson();
        Tag tagResponse = gson.fromJson(responseInJson, Tag.class);
-
+        System.out.println("hi everyone");
     }
 }
